@@ -1,1 +1,6 @@
 #Data Science proj
+
+MLFLOW_TRACKING_URI=https://dagshub.com/Larry9350/mlproj.mlflow
+MLFLOW_TRACKING_USERNAME=Larry9350
+MLFLOW_TRACKING_PASSWORD=594463e630ba60cad760557e298e9b3d4811cf5e
+python script.py
