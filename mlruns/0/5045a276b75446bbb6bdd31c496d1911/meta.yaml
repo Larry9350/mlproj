@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/CODES/mlruns/0/5045a276b75446bbb6bdd31c496d1911/artifacts
+end_time: 1734673780803
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5045a276b75446bbb6bdd31c496d1911
+run_name: polite-grouse-174
+run_uuid: 5045a276b75446bbb6bdd31c496d1911
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734673765681
+status: 4
+tags: []
+user_id: root

@@ -3,10 +3,9 @@ import sys
 from src.mlproject.exception import CustomException
 from src.mlproject.logger import logging
 import pandas as pd
-#from src.mlproject.utils import read_sql_data
 from dotenv import load_dotenv
-#from sklearn.model_selection import GridSearchCV
-#from sklearn.metrics import r2_score
+from sklearn.model_selection import GridSearchCV
+from sklearn.metrics import r2_score
 import pymysql
 
 import pickle
@@ -41,7 +40,7 @@ def read_sql_data():
     except Exception as ex:
         raise CustomException(ex)
     
-#def save_object(file_path, obj):
+def save_object(file_path, obj):
     try:
         dir_path = os.path.dirname(file_path)
 
@@ -53,7 +52,7 @@ def read_sql_data():
     except Exception as e:
         raise CustomException(e, sys)
 
-#def evaluate_models(X_train, y_train,X_test,y_test,models,param):
+def evaluate_models(X_train, y_train,X_test,y_test,models,param):
     try:
         report = {}
 
